@@ -13,7 +13,7 @@
   <meta name="supported-color-schemes" content="light dark" /> -->
     <title>Dugimail</title>
     <style type="text/css">
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+      /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
 
       table {
         border-spacing: 0;
@@ -111,7 +111,13 @@
   </head>
 
   <body
-    style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1"
+    style="
+      margin: 0;
+      padding: 0;
+      min-width: 100%;
+      background-color: #dde0e1;
+      font-family: Helvetica, sans-serif;
+    "
   >
     <!--[if (gte mso 9)|(IE)]>
       <style type="text/css">
@@ -163,7 +169,6 @@
       <![endif]-->
 
         <table
-          align="center"
           border="0"
           cellspacing="0"
           cellpadding="0"
@@ -173,7 +178,7 @@
             font-family: 'Poppins', sans-serif, Arial, Helvetica;
             background-color: #f0f1f1;
             margin: 0;
-            width: 100%;
+            min-width: 100%;
             max-width: 600px;
           "
         >
@@ -187,10 +192,84 @@
                 role="presentation"
               >
                 <tr>
-                  <td style="padding: 0 0 32px 0;">
+                  <td style="padding: 0 0 32px 0">
                     <a href="https://iqinvolta.ru/iq" target="_blank">
-                      <img src="./logo.png" alt="iqinvolta-logo" style="border: 0; width: 192px;">
+                      <img
+                        src="https://dartweider2000.github.io/mail-recourses/logo.png"
+                        alt="iqinvolta-logo"
+                        style="border: 0; width: 192px"
+                      />
                     </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="position: relative; width: 100%">
+              <img
+                src="https://dartweider2000.github.io/mail-recourses/background.png"
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  object-position: center;
+                "
+                alt="background"
+              />
+              <table
+                style="
+                  position: relative;
+                  z-index: 5;
+                  padding: 32px 24px;
+                  width: 100%;
+                "
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                role="presentation"
+              >
+                <tr>
+                  <td>
+                    <table>
+                      <tr>
+                        <td
+                          style="
+                            text-align: center;
+                            font-size: 25px;
+                            line-height: 140%;
+                            font-weight: 700;
+                            padding: 0 0 32px 0;
+                          "
+                        >
+                          Подтвердите почту
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 0 0 8px 0;">Здравствуйте, {name}!</td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 0 0 32px 0;">
+                          Авторизируйтесь и станьте частью закрытого клуба IQ
+                          involta, подтвердите адрес электронной почты:
+                          <span>anpolar@yandex.ru</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table>
+                            <tr>
+                              <td>
+                                <img style="width: 324px;" src="https://dartweider2000.github.io/mail-recourses/button.png" alt="button">
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
                 </tr>
               </table>
