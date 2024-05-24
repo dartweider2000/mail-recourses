@@ -136,11 +136,7 @@
 
     <center style="width: 100%; table-layout: fixed; background-color: #f1f1f1">
       <div
-        style="
-          max-width: 600px;
-          background-color: #f1f1f1;
-          padding: 24px 24px 0;
-        "
+        style="max-width: 600px; background-color: #f1f1f1; padding: 24px 24px"
       >
         <!-- Preheader (remove comment) -->
         <div
@@ -214,14 +210,14 @@
                 role="presentation"
               >
                 <tr>
-                  <td>
+                  <td style="line-height: 0">
                     <img
                       src="https://dartweider2000.github.io/mail-recourses/corner-1.jpg"
                       alt="left-top-corner"
                     />
                   </td>
-                  <td></td>
-                  <td>
+                  <td style="width: 100%"></td>
+                  <td style="line-height: 0">
                     <img
                       src="https://dartweider2000.github.io/mail-recourses/corner-2.jpg"
                       alt="right-top-corner"
@@ -229,8 +225,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td>
+                  <td style="width: auto"></td>
+                  <td style="padding: 16px 8px">
                     <table
                       border="0"
                       cellspacing="0"
@@ -257,6 +253,7 @@
                             font-size: 20px;
                             font-weight: 700;
                             line-height: 140%;
+                            text-align: center;
                           "
                         >
                           Здравствуйте, {name}!
@@ -268,52 +265,75 @@
                             padding: 0 0 32px 0;
                             font-size: 20px;
                             line-height: 140%;
+                            text-align: center;
                           "
                         >
                           <span style="color: rgba(0, 0, 0, 0.25)"
                             >Авторизируйтесь и станьте частью закрытого клуба IQ
                             involta, подтвердите адрес электронной почты:</span
                           >
-                          <span style="color: #0043fa">anpolar@yandex.ru</span>
+                          <a
+                            href="mailto:anpolar@yandex.ru"
+                            target="_blank"
+                            style="
+                              color: #0043fa;
+                              font-size: inherit;
+                              line-height: inherit;
+                              text-decoration: none;
+                              outline: none;
+                            "
+                            >anpolar@yandex.ru</a
+                          >
                         </td>
                       </tr>
                       <tr style="width: 324px">
                         <td style="padding: 0 0 32px 0">
-                          <table
+                          <a
+                            href="https://iqinvolta.ru/iq"
+                            target="_blank"
                             style="
-                              max-width: 324px;
-                              width: 100%;
-                              background: #0043fa;
+                              display: block;
+                              text-decoration: none;
+                              outline: none;
+                              position: relative;
+                              color: white;
+                              font-weight: 700;
+                              font-size: 22px;
+                              line-height: 140%;
+                              z-index: 5;
                             "
-                            align="center"
-                            border="0"
-                            cellspacing="0"
-                            cellpadding="0"
-                            role="presentation"
                           >
-                            <tr>
-                              <td>
-                                <img
-                                  src="https://dartweider2000.github.io/mail-recourses/corner-button-1.jpg"
-                                  alt="left-top-corner-button"
-                                />
-                              </td>
-                              <td></td>
-                              <td>
-                                <img
-                                  src="https://dartweider2000.github.io/mail-recourses/corner-button-2.jpg"
-                                  alt="right-top-corner-button"
-                                />
-                              </td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td style="height: 100%; width: 100%; z-index: 5">
-                                <a
-                                  href="https://iqinvolta.ru/iq"
+                            <table
+                              style="
+                                max-width: 324px;
+                                width: 100%;
+                                background: #0043fa;
+                              "
+                              align="center"
+                              border="0"
+                              cellspacing="0"
+                              cellpadding="0"
+                              role="presentation"
+                            >
+                              <tr>
+                                <td style="line-height: 0">
+                                  <img
+                                    src="https://dartweider2000.github.io/mail-recourses/corner-button-1.jpg"
+                                    alt="left-top-corner-button"
+                                  />
+                                </td>
+                                <td style="width: 100%"></td>
+                                <td style="line-height: 0">
+                                  <img
+                                    src="https://dartweider2000.github.io/mail-recourses/corner-button-2.jpg"
+                                    alt="right-top-corner-button"
+                                  />
+                                </td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td
                                   style="
-                                    display: block;
-
                                     position: relative;
                                     color: white;
                                     font-weight: 700;
@@ -321,29 +341,30 @@
                                     text-align: center;
                                     line-height: 140%;
                                     z-index: 5;
+                                    padding: 4px 6px;
                                   "
                                 >
                                   Подтвердить
-                                </a>
-                              </td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <img
-                                  src="https://dartweider2000.github.io/mail-recourses/corner-button-4.jpg"
-                                  alt="left-bottom-corner-button"
-                                />
-                              </td>
-                              <td></td>
-                              <td>
-                                <img
-                                  src="https://dartweider2000.github.io/mail-recourses/corner-button-3.jpg"
-                                  alt="right-bottom-corner-button"
-                                />
-                              </td>
-                            </tr>
-                          </table>
+                                </td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td style="line-height: 0">
+                                  <img
+                                    src="https://dartweider2000.github.io/mail-recourses/corner-button-4.jpg"
+                                    alt="left-bottom-corner-button"
+                                  />
+                                </td>
+                                <td style="width: 100%"></td>
+                                <td style="line-height: 0">
+                                  <img
+                                    src="https://dartweider2000.github.io/mail-recourses/corner-button-3.jpg"
+                                    alt="right-bottom-corner-button"
+                                  />
+                                </td>
+                              </tr>
+                            </table>
+                          </a>
                         </td>
                       </tr>
                       <tr>
@@ -371,8 +392,17 @@
                               >
                                 Вы получили это письмо, потому что вы указали
                                 адрес
-                                <span style="color: #0043fa"
-                                  >anpolar@yandex.ru</span
+                                <a
+                                  href="mailto:anpolar@yandex.ru"
+                                  target="_blank"
+                                  style="
+                                    color: #0043fa;
+                                    font-size: inherit;
+                                    line-height: inherit;
+                                    text-decoration: none;
+                                    outline: none;
+                                  "
+                                  >anpolar@yandex.ru</a
                                 >
                                 при регистрации сервисах involta
                               </td>
@@ -389,7 +419,13 @@
                                 Чтобы перестать получать наши письма, перейдите
                                 <a
                                   href="https://iqinvolta.ru/iq"
-                                  style="color: #0043fa; white-space: nowrap"
+                                  target="_blank"
+                                  style="
+                                    color: #0043fa;
+                                    white-space: nowrap;
+                                    text-decoration: none;
+                                    outline: none;
+                                  "
                                   >по ссылке</a
                                 >
                               </td>
@@ -402,14 +438,14 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <td>
+                  <td style="line-height: 0">
                     <img
                       src="https://dartweider2000.github.io/mail-recourses/corner-4.jpg"
                       alt="left-bottom-corner"
                     />
                   </td>
-                  <td></td>
-                  <td>
+                  <td style="width: 100%"></td>
+                  <td style="line-height: 0">
                     <img
                       src="https://dartweider2000.github.io/mail-recourses/corner-3.jpg"
                       alt="right-bottom-corner"
